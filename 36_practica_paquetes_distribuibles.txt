@@ -1,0 +1,37 @@
+Paquetes distribuibles
+--------------------------
+Sirven para poder ejecutar nuestros módulos desde cualquier lugar
+
+1- Crear setup.py en la raiz de nuestro proyecto
+from setuptools import setup
+
+setup(
+	name = "paquetecalculos",
+	version = "1.0",
+	descripcion = "Paquete de redondeo y potencias",
+	author = "Juan",
+	author_email = "a@a.com",
+	url = "www.google.es",
+	packages = ["_35_calculos", "_35_calculos.redondeo_potencia"]
+	)
+
+2- Ejecutar "cmd" e ir a la carpeta donde está el setup.
+   Otra forma de ir: En el explorador de archivos pulsar Shift + Right Click / Abrir la ventana de PowerShell aquí
+
+3- Ejecutar: python setup.py sdist
+
+4- Se habrán creado dos carpetas:
+	- dist: Contiene el fichero: paquetecalculos-1.0.tar.gz
+	- paquetecalculos.egg-info: Contiene dependency_links.txt, PKG-INFO, SOURCES.txt, top_level.txt
+
+5- Para instalar el paquete recién creado:
+	cd dist
+	pip3 install paquetecalculos-1.0.tar.gz
+
+6- Ahora puedo hacer un python en cualquier lugar que use:
+	from _35_calculos.redondeo_potencia.redondea_potencia import *
+
+7- Para desinstalar el paquete:
+	pip3 uninstall paquetecalculos
+   Pide confirmación de si lo queremos borrar. Pulsar "y".
+
