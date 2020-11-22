@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kerOBjj55TztKPkutLLSWaw96a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,10 +33,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606072191493">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606072191493" />
     <state x="592" y="331" key="Github.CreateGistDialog" timestamp="1606072078357">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="592" y="331" key="Github.CreateGistDialog/0.0.1536.824@0.0.1536.824" timestamp="1606072078357" />
+    <state x="639" y="310" width="591" height="204" key="Github.ShareDialog" timestamp="1606072275256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="639" y="310" width="591" height="204" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1606072275256" />
+    <state x="599" y="117" key="Github.UntrackedFilesDialog" timestamp="1606072298772">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="117" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606072298772" />
     <state x="276" y="56" key="SettingsEditor" timestamp="1606072121829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
