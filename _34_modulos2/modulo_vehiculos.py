@@ -16,7 +16,7 @@ class Vehiculos:
 		self.frena = True
 
 	def estado(self):
-		print("Marca:", self.marca, "\nModelo:", self.modelo, "\nEn marcha:", self.enmarcha, "\nAcelera:", self.acelera, "\nFrena:", self.frena)
+		print("Marca:", self.marca, "\nModelo:", self.modelo, "\nEn marcha:", self.enmarcha, "\nAcelera:", self.acelera, "\nFrena:", self.frena, "\n")
 
 
 # Hereda de Vehiculos
